@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Randomize</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colour">Colour</string>
+    <string name="roll_4">ROLL 4</string>
+    <string name="roll_3">ROLL 3</string>
+    <string name="roll_2">ROLL 2</string>
+    <string name="roll_1">ROLL 1</string>
+
+
+</resources>

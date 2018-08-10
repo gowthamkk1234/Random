@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appbarlayout"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="enterAlways"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:scrollIndicators="none"
+
+        android:scrollbars="horizontal"
+        android:text="Randomizer is one of the randomizing tools used to Randomize everything.
+        \n*Numbers:Give a Range of numbers and it will generate random numbers between a range.
+        \n*Series:Give a Range of numbers and it will suffle the numbers in the given series.
+        \n*Toss:Don't have a coin while playing Cricket!!Here is the Random toss.It will toss up heads and tails randomly.
+        \n*Dice:Roll dice in for a dice game.
+        \n*Card:Random cards are displayed from 52 deck of Cards.
+        \n*Colour:Generate Random Colours with colourcodes.
+        \n*List:Provide a list and it will give a suffled list."
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="0dp" />
+</RelativeLayout>
